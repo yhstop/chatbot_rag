@@ -13,7 +13,7 @@ from numpy.linalg import norm
 
 from streamlit_chat import message
 
-# load_dotenv()
+load_dotenv()
 
 OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
 
